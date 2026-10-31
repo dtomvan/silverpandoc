@@ -1,0 +1,6 @@
+name: silverpandoc
+functions:
+  exportPDF:
+    path: silverpandoc.ts:exportPDF
+    command:
+      name: "Silverpandoc: export as PDF"

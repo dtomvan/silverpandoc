@@ -1,7 +1,8 @@
 ---
-name: Library/you/hello/PLUG
+name: Library/dtomvan/silverpandoc/PLUG
 tags: meta/library
 files:
-- hello.plug.js
+  - silverpandoc.plug.js
 ---
-This library does A, B and C.
+
+Exports SilverBullet pages as PDF through [pandoc-wasm](<>) and [typst.ts](<>).
