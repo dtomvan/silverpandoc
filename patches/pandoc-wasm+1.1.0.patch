@@ -1,0 +1,14 @@
+diff --git a/node_modules/pandoc-wasm/package.json b/node_modules/pandoc-wasm/package.json
+index e1e1d62..cc3c6e7 100644
+--- a/node_modules/pandoc-wasm/package.json
++++ b/node_modules/pandoc-wasm/package.json
+@@ -10,7 +10,8 @@
+       "node": "./src/index.node.js",
+       "browser": "./src/index.browser.js",
+       "default": "./index.js"
+-    }
++    },
++    "./core": "./src/core.js"
+   },
+   "files": [
+     "index.js",

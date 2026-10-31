@@ -1,0 +1,17 @@
+diff --git a/node_modules/@silverbulletmd/silverbullet/dist/plug-compile.js b/node_modules/@silverbulletmd/silverbullet/dist/plug-compile.js
+index 2cd403d..2d74f19 100755
+--- a/node_modules/@silverbulletmd/silverbullet/dist/plug-compile.js
++++ b/node_modules/@silverbulletmd/silverbullet/dist/plug-compile.js
+@@ -1404,6 +1404,12 @@ setupMessageListener(functionMapping, manifest, self.postMessage);
+     globalName: "mod",
+     platform: "browser",
+     sourcemap: "linked",
++    loader: {
++      ".wasm": "file",
++    },
++    external: [
++      "@myriaddreamin/typst-ts-renderer"
++    ],
+     minify: !options.debug,
+     outfile: outFile,
+     metafile: options.info,

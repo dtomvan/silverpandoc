@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npx plug-compile silverpandoc.plug.yaml"
+    "build": "npx plug-compile silverpandoc.plug.yaml",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@silverbulletmd/silverbullet": ">=2.5.3"
+    "patch-package": "^8.0.1"
   },
   "allowScripts": {
     "esbuild@0.28.2": true,
