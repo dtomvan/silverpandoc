@@ -4,3 +4,4 @@ functions:
     path: silverpandoc.ts:exportPDF
     command:
       name: "Silverpandoc: export as PDF"
+      requireEditor: page
